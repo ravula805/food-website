@@ -1,0 +1,230 @@
+<html>
+<head>
+    <style>
+        .sia{
+            position: absolute;
+            top: 8px;
+            left: 16px;}
+        .food{
+            height:100%;
+            width:100%;
+            margin-left:0%;
+            padding-top:10px;
+        margin-top: 5px;
+        }
+        .healthy{
+        position:absolute;
+        top:60%;
+        left:30%;
+        color:white;
+        font-size:60px;
+        }
+        .fit{
+            position:absolute;
+            top:70%;
+            left:40%;
+            color:black;
+            font-size:30px;
+        }
+        .choose{
+            position: absolute;
+            top: 8px;
+            left: 80%;
+           }
+        .menu{
+            position: absolute;
+            top: 25px;
+            left: 80%;
+        }
+        .view{
+            position: absolute;
+        top:30px;
+        left: 80%;
+            margin-left:0px;
+        background-color:white;
+        cursor:pointer;
+        border:none;
+        padding:10px;
+        }
+        .order{
+            position: absolute;
+        top: 55%;
+        left: 80%;
+        background-color:white;
+        cursor:pointer;
+        border:none;
+        padding:10px;
+
+        }
+        .view:active{
+            background-color:grey;
+        }
+        .order:active{
+            background-color:yellow;
+        }
+        .us,
+        .both,
+        .fresh,
+        .group,
+        .explore,
+        .organic,
+        .dev{
+           text-align:center;
+        }
+        .hyd{
+            text-align:center;
+            line-height:1px;
+        }
+      
+       
+        
+        .res{
+            display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+        }
+        .health{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;}
+  .cut{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  }
+  .home{
+    display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 10%;
+  }
+  
+
+    </style>
+<body>
+    <div class="sia">Sia</div>
+            <img src="https://thumbs.dreamstime.com/b/plate-fork-spoon-restaurant-logo-white-background-eps-plate-fork-spoon-restaurant-logo-193685698.jpg" style="width: 150px; height: 90px;">
+    <div>
+        <img class="food" src="https://t4.ftcdn.net/jpg/03/10/37/17/360_F_310371719_mXeIeGffleiadWflOYGxOEy0TetynLvQ.jpg"/>
+    <div id="navitem7">
+        <div>
+            <a id="exploreChooseSection" /a>
+                <a class="choose" href="#exploreChooseSection" id="navItem2">Why Choose Us?</a>
+            <a class="menu" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+
+        </div>
+</div>
+</div>
+     <div>
+        <feels class="healthy"> Feels like victory,smells like accomplishment,feels like feast</h1>
+        <p class="fit">Remember to eat Healthy and stay Fit.</p>
+        <button  class="view">View Menu</button>
+        <button class="order">Order Now</button>
+    </div>
+</div>
+<div id="wcuSection">
+            <div >
+                <h1 class="us" >Why Choose Us?</h1>
+                <p class="both">
+                    We use both original recipes and classic versions of famous food
+                    items.
+                </p>
+            </div>      
+                
+        <div>
+                   
+                        <img  clsss="home" src="https://png.pngtree.com/png-vector/20220708/ourmid/pngtree-fast-food-logo-png-image_5763171.png"/>
+                        <h1 class="service">Food Service</h1>
+                        <p class="fine">
+                            Experience fine dining at the comfort of your home. All our
+                            orders are carefully packed and arranged to give you the nothing
+                            less than perfect.
+                        </p>
+                    </div>
+                </div>
+                        <img class="cut" src="https://cdn.vectorstock.com/i/500p/32/07/fresh-food-logo-vector-51203207.jpg" />
+                        <h1 class="fresh">Fresh Food</h1>
+                        <div class="group">
+                            The Fresh Food group provides fresh-cut fruits and vegetables
+                            directly picked from our partner farms and farm houses so that
+                            you always get them tree to plate.
+                        </div>
+    <div  id="exploreMenuSection">
+        <h1 class="explore">Explore Menu</h1>
+    </div>
+        
+        <div>
+        <img src="https://5.imimg.com/data5/JQ/JM/GLADMIN-56669953/tandoori-chicken-500x500.png"/>
+        <h1>Non-Veg Starters</h1>
+        <a href="">
+        view all
+        </a>
+        </div>
+        <div class="veg">
+        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/burrata-bruschetta-with-summer-beans-b91aadf.jpg?quality=90&resize=500,454" />
+        <h1>Veg Starters</h1>
+        <a href="" class="menu-item-link">
+        View All
+        
+        </a>
+        </div>
+        </div>
+        <div>
+        <img src="https://media.istockphoto.com/id/1226586928/photo/hot-vegetable-soup-in-a-dish-made-of-natural-materials-traditional-family-lunch-in-a-russian.jpg?s=612x612&w=0&k=20&c=BEJ-vSjbEpLWFUvgqVBuGlReQojVQC7zhAJI8c-YJQs=" />
+        <h1>Soups</h1>
+        <a href="" class="menu-item-link">
+		View All
+        
+        </a>
+        </div>
+        
+        <div>
+        <img src="https://media.istockphoto.com/id/1156027693/photo/fresh-salmon-steak-with-a-variety-of-seafood-and-herbs.jpg?s=612x612&w=0&k=20&c=FnY31V37yG5Ip4ejRttubUHBS8PPTaZfHHukDsEDjc0=" />
+        <h1>Fish & Sea food</h1>
+        <a href="" class="menu-item-link">
+        View All
+        
+        </a>
+        </div>
+        <div>
+        <img src="https://www.almajlesdiyafa.com/images/menu/dish-img130.jpg" />
+        <h1>Main Course</h1>
+        <a href="" class="menu-item-link">
+        View All
+        
+        </a>
+        </div>
+        </div>
+      
+        <div>
+        <img src="https://i.pinimg.com/564x/a2/6a/5c/a26a5c718be697b3bb70b008bd88cc4e.jpg" />
+        <h1>Desserts</h1>
+        <a href="" class="menu-item-link">
+        View All
+        
+        </a>
+        </div>
+        
+            <div>
+                <h1 class="organic">
+                    Fresh, Healthy, Organic, Delicious Fruits
+                </h1>
+                <img class="health" src="https://media.istockphoto.com/id/146807105/photo/food-pyramid-pie-chart.jpg?s=612x612&w=0&k=20&c=SX0hFBaED3Wwi0G2pLfhsYN1GRjlyK8wzqHf-qUyJOk="/>
+                <p>
+                    Healthy food refers to foods that are nutritious, beneficial for overall health, and contribute to a well-balanced diet. These foods are typically rich in essential nutrients such as vitamins, minerals, fiber, and antioxidants. Examples of healthy foods include fruits, vegetables, whole grains, lean proteins, and healthy fats. Consuming a variety of these foods in appropriate portions can help support optimal health and well-being. It is important to consult with a healthcare professional or nutritionist for personalized dietary recommendations.
+                </p>
+            </div>
+        
+    <div>
+        <img class="res" src="https://thumbs.dreamstime.com/z/plate-fork-spoon-restaurant-logo-white-background-eps-plate-fork-spoon-restaurant-logo-193685698.jpg?ct=jpeg" />
+        <h1 class="dev">siafood@gmail.com</h1>
+        <p class="hyd">
+            500015,hyderabad,telangana,India
+        </p>
+    </div>
+</body>
+
+</html>
